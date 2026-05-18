@@ -9,6 +9,8 @@ Tinode is *not* XMPP/Jabber. It is *not* compatible with XMPP. It's meant as a r
 <a href="https://apps.apple.com/us/app/tinode/id1483763538"><img src="docs/app-store.svg" height=36></a> <a href="https://play.google.com/store/apps/details?id=co.tinode.tindroidx"><img src="docs/play-store.svg" height=36></a> <a href="https://web.tinode.co/"><img src="docs/web-app.svg" height=36></a>
 
 > **Personal fork note:** I'm using this repo to learn Go backend development and experiment with self-hosted messaging. My setup notes are in [PERSONAL_NOTES.md](./PERSONAL_NOTES.md).
+>
+> **Local dev setup:** Running with MySQL backend on Ubuntu 22.04. To start locally: `./server/server --config=./server/tinode.conf`. Default port is 6060. See `PERSONAL_NOTES.md` for Docker Compose setup I use for the database.
 
 ## Why?
 
@@ -31,6 +33,4 @@ See [general instructions](./INSTALL.md) or [docker-specific instructions](./doc
 
 ## Helping out
 
-* If you appreciate our work, please help spread the word! Sharing on Reddit, HN, and other communities helps more than you think.
-* Consider buying paid support: https://tinode.co/support.html
-* If you are a software developer, send us your pull requests with bug fixes a
+* If you appreciate our work, please help spread the word! Sharing on Reddit, HN, and 
